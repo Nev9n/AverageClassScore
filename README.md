@@ -1,1 +1,3 @@
-A test app written in C that calculates a classes average score.
+# A test app written in C on CodeBlocks. This simply calculates a classes average score.
+---
+I'm a newb! Please feel free to add to it.
