@@ -19,4 +19,12 @@ int main()
     printf("Final grade: %.2f", average);
 
     return 0;
+    
+    if (average>60){
+        printf("Congratulations you passed!");
+    }
+    else{
+        printf("Sorry, you failed. Keep trying!");
+    }
+
 }
