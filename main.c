@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*This is a program written to take in the midterm and final
+/*This is a program written to calculate the midterm and final
 grade of a student and output the average*/
 
 int main()
@@ -16,15 +16,15 @@ int main()
 
     average = (midtermGrade + finalGrade)/2;
 
-    printf("Final grade: %.2f", average);
+    printf("Final grade: %.2f\n\n", average);
 
-    return 0;
-    
     if (average>60){
         printf("Congratulations you passed!");
     }
     else{
-        printf("Sorry, you failed. Keep trying!");
+        printf("Sorry, you didn't pass. Try to spend more time studying!\n");
     }
+
+    return 0;
 
 }
